@@ -1,0 +1,45 @@
+#root {
+  max-width: 1280px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  .title {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    color: #1a1a1a;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #1a1a1a;
+  }
+}
+
+
+@keyframes animate-fade-in-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.fade-in-down {
+  animation: animate-fade-in-down 0.8s ease-out forwards;
+}
+
+.fade-in-down-delay {
+  animation-delay: 0.5s;
+  animation: animate-fade-in-down 1.5s ease-out forwards;
+}
