@@ -14,5 +14,5 @@ export const myprojects = [{
     title: "Flappy Bird",
     description: "Juego de Flappy Bird",
     image: "https://res.cloudinary.com/ds8cp2nxp/image/upload/v1744353226/Portfolio/5e407ff4-c4b7-4484-8aa7-9be6fce94029.png",
-    link: "https://example.com/proyecto3"
+    link: "https://play-flappy-bird.vercel.app/"
 }];
