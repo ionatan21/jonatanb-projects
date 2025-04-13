@@ -1,0 +1,12 @@
+.animated-title-wrapper {
+    transition: height 1s ease, padding 1s ease;
+    overflow: hidden;
+  }
+  
+  /* Opcional: le podés dar un min-height en mobile */
+  @media (max-width: 600px) {
+    .animated-title-wrapper {
+      min-height: 80px; /* Ajusta según el tamaño de tus frases */
+    }
+  }
+  

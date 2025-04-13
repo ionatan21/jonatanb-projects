@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import "./animatedHeadline.css";
 
 const baseText = "My personal projects";
 const phrases = [
@@ -54,5 +55,5 @@ export default function AnimatedHeadline() {
     return () => clearTimeout(timeout);
   }, [charIndex, isDeleting, currentText, index]);
 
-  return <h2 className="title fade-in-down">{displayText}</h2>;
+  return <h2 className="title animated-title-wrapper fade-in-down">{displayText}</h2>;
 }

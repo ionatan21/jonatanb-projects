@@ -1,11 +1,13 @@
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   .proyectos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     gap: 1.5rem;
+    margin-bottom: 100px;
+    transition: all 0.3s ease;
   }
 
   .proyecto {
@@ -16,7 +18,7 @@
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 12px;
-    height: 250px;
+    height: 25vh;
     width: 25vw;
     color: white;
     text-decoration: none;
@@ -26,7 +28,36 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
+    .proyectos {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      grid-column-gap: 0px;
+      grid-row-gap: 0px;
+      gap: 2rem;
+      margin-bottom: 100px;
+    }
+  
+    .proyecto {
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      border-radius: 12px;
+      height: 25vh;
+      width: 40vw;
+      color: white;
+      text-decoration: none;
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+  }
+
+@media (max-width: 500px) {
   .proyectos {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -34,6 +65,7 @@
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     gap: 2rem;
+    margin-bottom: 100px;
   }
 
   .proyecto {
@@ -66,7 +98,7 @@
 }
 
 .overlay {
-  background: rgba(0, 0, 0, 0.1); /* Dark overlay for legibility */
+  background: rgba(0, 0, 0, 0.2); /* Dark overlay for legibility */
   width: 100%;
   padding: 1rem;
   backdrop-filter: blur(2px);
