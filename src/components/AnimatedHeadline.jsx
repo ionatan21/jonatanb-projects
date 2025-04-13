@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./animatedHeadline.css";
+import "./headline.css";
 
 const baseText = "My personal projects";
 const phrases = [
