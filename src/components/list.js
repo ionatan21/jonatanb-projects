@@ -2,6 +2,13 @@
 
 export const myprojects = [
   {
+    title: "Fake Cinemas",
+    description: "Pagina web reimaginada de Pacific Cinemas",
+    image:
+      "https://res.cloudinary.com/ds8cp2nxp/image/upload/v1745044475/Portfolio/image_1_xfvdk3.webp",
+    link: "https://fake-cinemas.vercel.app/",
+  },
+  {
     title: "Día del programador",
     description: "Cuenta regresiva para el día del programador",
     image:
@@ -23,7 +30,7 @@ export const myprojects = [
     link: "https://play-flappy-bird.vercel.app/",
   },
   {
-    title: "Sanake",
+    title: "Snake",
     description: "Juego snake hecho en p5js",
     image:
       "https://res.cloudinary.com/ds8cp2nxp/image/upload/v1744514538/Portfolio/a63878f4-1cad-47ff-a860-afb5f37b1ecc_tuwit7.webp",
