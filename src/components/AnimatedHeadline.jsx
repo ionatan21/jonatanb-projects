@@ -55,5 +55,5 @@ export default function AnimatedHeadline() {
     return () => clearTimeout(timeout);
   }, [charIndex, isDeleting, currentText, index]);
 
-  return <h2 className="title animated-title-wrapper fade-in-down">{displayText}</h2>;
+  return <h2 className="title animated-title-wrapper mt-2 fade-in-down">{displayText}</h2>;
 }

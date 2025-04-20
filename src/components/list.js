@@ -4,86 +4,88 @@ export const myprojects = [
   {
     title: "Fake Cinemas",
     description: "Pagina web reimaginada de Pacific Cinemas",
-    image:
-      "https://res.cloudinary.com/ds8cp2nxp/image/upload/v1745044475/Portfolio/image_1_xfvdk3.webp",
+    video:
+      "https://res.cloudinary.com/ds8cp2nxp/video/upload/v1745104771/VIdeos/fake-cinemas-bg_mz9zjo.webm",
     link: "https://fake-cinemas.vercel.app/",
+  },
+  {
+    title: "Flappy Bird",
+    description: "Juego de Flappy Bird",
+    video:
+      "https://res.cloudinary.com/ds8cp2nxp/video/upload/v1745104988/VIdeos/flappy-bg_iot0vu.webm",
+    link: "https://play-flappy-bird.vercel.app/",
+  },
+  {
+    title: "Barrios-link",
+    description: "Acortador de enlaces personal",
+    video:
+      "https://res.cloudinary.com/ds8cp2nxp/video/upload/v1745105404/VIdeos/barrio-bg_o3mafk.webm",
+    link: "https://barrios-link.vercel.app/",
+  },
+  {
+    title: "Open-QR",
+    description: "Generador de códigos QR",
+    video:
+      "https://res.cloudinary.com/ds8cp2nxp/video/upload/v1745106288/VIdeos/qr-bg_coetjd.webm",
+    link: "https://open-qr-app.vercel.app/",
+  },
+  {
+    title: "Métedos-numéricos",
+    description: "Herramienta para resolver ecuaciones",
+    video:
+      "https://res.cloudinary.com/ds8cp2nxp/video/upload/v1745106453/VIdeos/Metodo-bg_sh4pyw.webm",
+    link: "https://metodos-numericos-self.vercel.app/",
+  },
+  {
+    title: "Snake",
+    description: "Juego snake hecho en p5js",
+    video:
+      "https://res.cloudinary.com/ds8cp2nxp/video/upload/v1745106705/VIdeos/snake-bg_a3tzzi.webm",
+    link: "https://play-snake.vercel.app/",
   },
   {
     title: "Día del programador",
     description: "Cuenta regresiva para el día del programador",
-    image:
-      "https://res.cloudinary.com/ds8cp2nxp/image/upload/v1744514543/Portfolio/7e518041-ff90-418c-9449-23f2209ea38c_anhotu.webp",
+    video:
+      "https://res.cloudinary.com/ds8cp2nxp/video/upload/v1745107054/VIdeos/programador-bg_oh2pqi.webm",
     link: "https://feliz-dia-programador.vercel.app/",
   },
   {
     title: "Año nuevo",
     description: "Cuenta regresiva para el año nuevo",
-    image:
-      "https://res.cloudinary.com/ds8cp2nxp/image/upload/v1744514609/Portfolio/a9a45472-af84-4e84-8df8-11274388a60f_kpx5th.webp",
+    video:
+      "https://res.cloudinary.com/ds8cp2nxp/video/upload/v1745107253/VIdeos/year-bg_ah5hqv.webm",
     link: "https://happy-new-year-vert.vercel.app/",
   },
-  {
-    title: "Flappy Bird",
-    description: "Juego de Flappy Bird",
-    image:
-      "https://res.cloudinary.com/ds8cp2nxp/image/upload/v1744514541/Portfolio/5e407ff4-c4b7-4484-8aa7-9be6fce94029_cnbr9p.webp",
-    link: "https://play-flappy-bird.vercel.app/",
-  },
-  {
-    title: "Snake",
-    description: "Juego snake hecho en p5js",
-    image:
-      "https://res.cloudinary.com/ds8cp2nxp/image/upload/v1744514538/Portfolio/a63878f4-1cad-47ff-a860-afb5f37b1ecc_tuwit7.webp",
-    link: "https://play-snake.vercel.app/",
-  },
-  {
-    title: "Barrios-link",
-    description: "Acortador de enlaces personal",
-    image:
-      "https://res.cloudinary.com/ds8cp2nxp/image/upload/v1744514536/Portfolio/bdfb09d0-2d89-41ea-9529-eb2cafe0a182_jkruuj.webp",
-    link: "https://barrios-link.vercel.app/",
-  },
-  {
-    title: "Métedos-numéricos",
-    description: "Herramienta para resolver ecuaciones",
-    image:
-      "https://res.cloudinary.com/ds8cp2nxp/image/upload/v1744514423/Portfolio/942ce039-cf3e-41a4-86b9-2f7173c8f813_zpzig2.webp",
-    link: "https://metodos-numericos-self.vercel.app/",
-  },
+
   {
     title: "Álgebra de Matrices",
     description: "Herramienta para resolver operaciones de matrices",
-    image:
-      "https://res.cloudinary.com/ds8cp2nxp/image/upload/v1744514396/Portfolio/faacc455-efc0-44f3-b8ea-5dc8f41aa321_cddj7w.webp",
+    video:
+      "https://res.cloudinary.com/ds8cp2nxp/video/upload/v1745107580/VIdeos/algebra-bg_bgpuzu.webm",
     link: "https://algebra-lineal.vercel.app/",
   },
   {
     title: "Game-of-life",
     description: "Juego de la vida de Conway",
-    image:
-      "https://res.cloudinary.com/ds8cp2nxp/image/upload/v1744514315/Portfolio/c8684c42-14f7-44a7-9834-69a1294c665d_hn6oiv.webp",
+    video:
+      "https://res.cloudinary.com/ds8cp2nxp/video/upload/v1745107771/VIdeos/life-bg_ceiafb.webm",
     link: "https://game-of-life-umber-six.vercel.app/",
   },
   {
     title: "21-septiembre",
     description:
       "Cuenta regresiva para regalar flores amarillas (también es mi cumpleaños)",
-    image:
-      "https://res.cloudinary.com/ds8cp2nxp/image/upload/v1744514256/Portfolio/34cb5b1a-ec57-4c1f-a843-a2f0368cd9e6_aiqfbp.webp",
+    video:
+      "https://res.cloudinary.com/ds8cp2nxp/video/upload/v1745107935/VIdeos/septiembre-bg_qzl4zr.webm",
     link: "https://21-septiembre.vercel.app/",
   },
-  {
-    title: "Open-QR",
-    description: "Generador de códigos QR",
-    image:
-      "https://res.cloudinary.com/ds8cp2nxp/image/upload/v1744514210/Portfolio/abce313d-05b7-46d5-badd-0a50a7499f75_vs19hk.webp",
-    link: "https://open-qr-app.vercel.app/",
-  },
+
   {
     title: "Me perdonas?",
     description: "Pagina para que te perdonen (si o si)",
-    image:
-      "https://res.cloudinary.com/ds8cp2nxp/image/upload/v1744514164/Portfolio/c612685f-eaab-4e64-b0ec-a8a2abab37d2_lmk9vb.webp",
+    video:
+      "https://res.cloudinary.com/ds8cp2nxp/video/upload/v1745108122/VIdeos/perdon-bg_sicbyh.webm",
     link: "https://me-perdonas-three.vercel.app/",
-  }
+  },
 ];

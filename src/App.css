@@ -6,6 +6,8 @@
   align-items: center;
   justify-content: center;
 }
+@import "tailwindcss";
+
 @media (min-width: 768px) {
   .title {
     font-size: 2rem;

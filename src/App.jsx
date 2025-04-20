@@ -7,6 +7,9 @@ function App() {
     <>
       <AnimatedHeadline />
       <Projects />
+      <div class="text-center mb-4 text-xs text-gray-500">
+        2025 <a href="https://portfolio-jonatan-barrios.vercel.app/" className="text-black">Jonatan Barrios</a> 
+      </div>
     </>
   );
 }

@@ -14,7 +14,6 @@
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 12px;
@@ -43,7 +42,6 @@
       display: flex;
       align-items: flex-end;
       justify-content: center;
-      background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
       border-radius: 12px;
@@ -72,7 +70,6 @@
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 12px;
@@ -86,26 +83,6 @@
   }
 }
 
-.proyecto:hover {
-  transform: scale(1.1);
-  transition: all 0.3s ease;
-  scale: 1.01;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-
-  .overlay {
-    transform: translateY(-5%);
-  }
-}
-
-.overlay {
-  background: rgba(0, 0, 0, 0.2); /* Dark overlay for legibility */
-  width: 100%;
-  padding: 1rem;
-  backdrop-filter: blur(2px);
-  position: absolute;
-  transition: all 0.3s ease;
-  transform: translateY(8%);
-}
 
 .proyecto h2 {
   margin: 0;
