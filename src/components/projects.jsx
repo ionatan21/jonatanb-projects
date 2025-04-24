@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef } from "react";
 import { myprojects } from "./list";
 import { motion } from "framer-motion";
 import "./projects.css";

@@ -30,7 +30,7 @@ export const myprojects = [
     link: "https://open-qr-app.vercel.app/",
   },
   {
-    title: "Métedos-numéricos",
+    title: "Métodos-numéricos",
     description: "Herramienta para resolver ecuaciones",
     video:
       "https://res.cloudinary.com/ds8cp2nxp/video/upload/v1745106453/VIdeos/Metodo-bg_sh4pyw.webm",
